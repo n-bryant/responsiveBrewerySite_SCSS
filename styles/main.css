@@ -1,0 +1,383 @@
+/* General Styles */
+body {
+  background-color: #30353d;
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");;
+  color: #30353d;
+  font: 16px/1.6 'Taviraj', serif;
+}
+section {
+  margin-bottom: 50px;
+}
+section:after {
+  background: #30353d;
+  content: "";
+  display: block;
+  height: 2px;
+  margin: 0 auto;
+  width: 85%;
+}
+
+/* Useful in resets to have images scale to their parent element */
+img {
+  border: 0;
+  height: auto;
+  max-width: 100%;
+  width: 100%;
+}
+
+/*        */
+/* Header */
+header {
+  background: #30353d;
+  color: #eee;
+  margin: 0 auto;
+  padding: 2%;
+  text-align: center;
+  width: 85%;
+}
+header h1 {
+  color: #e4b547;
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+.logo {
+  cursor: pointer;
+  display: block;
+  margin: 0 auto 10px auto;
+  padding-left: 5px;
+  width: 100px;
+}
+.nav-hidden {
+  display: none;
+  font-size: 2rem;
+  margin: 0 auto;
+  width: 50%;
+}
+.nav-shown {
+  display: block;
+  font-size: 2rem;
+  margin: 0 auto;
+  width: 50%;
+}
+#navigation li {
+  color: #30353d;
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+#navigation a {
+  color: #eee;
+}
+#navigation a:hover {
+  color: #e4b547;
+}
+
+
+/*      */
+/* Main */
+main {
+  background: #eee;
+  margin: 0 auto;
+  padding: 2.5%;
+  width: 85%;
+}
+.section-title {
+  font-size: 2rem;
+  padding-bottom: 10px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* Out Beers */
+.beer-bottle {
+  margin: 0 auto 10px auto;
+  overflow: hidden;
+  padding-bottom: 10px;
+  width: 50%;
+}
+.beer-details {
+  float: left;
+  padding-bottom: 10px;
+}
+.beer-details h3 {
+  text-decoration: underline;
+  font-weight: 800;
+}
+.beer-details li:first-of-type > span {
+  font-style: italic;
+}
+.beer-details li:nth-of-type(2) > span {
+  font-weight: 200;
+}
+.beer-stats li {
+  display: inline-block;
+  padding-right: 5px;
+}
+.beer-stats li > .fa {
+  color: #e4b547;
+}
+.beer-style {
+  border: 2px solid #30353d;
+  float: right;
+  height: 70px;
+  width: 70px;
+}
+.beer-bottle:after {
+  background: #e4b547;
+  clear: both;
+  content: "";
+  display: block;
+  height: 1px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.black-ipa, .imp-stout {
+  background: #0f0b0a;
+}
+.ipa {
+  background: #fbc000;
+}
+.amber {
+  background: #c83c07;
+}
+.stout {
+  background: #220000;
+}
+
+/* Beer Club */
+.beer-club {
+  text-align: center;
+}
+.beer-club .hero {
+  filter: grayscale(100%);
+  margin-bottom: 1rem;
+  width: 65%;
+}
+.beer-club .hero:hover {
+  filter: none;
+}
+.beer-club p {
+  margin: 0 auto 30px auto;
+  text-align: left;
+  width: 65%;
+}
+.beer-club p::first-letter {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+
+/* About Us */
+.about {
+  margin: 0 auto;
+  width: 85%;
+}
+.about div {
+  display: inline-block;
+}
+.about-img-container /*iframe*/img {
+  border: 2px solid #30353d;
+  filter: grayscale(100%);
+}
+.about-img-container img:hover /*iframe*/{
+  filter: none;
+}
+.about-copy-container p:first-of-type {
+  margin-bottom: 25px;
+}
+.about-copy-container p:first-of-type:first-letter {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+/* Contact/Location */
+.contact-location {
+  margin: 0 auto;
+  overflow: hidden;
+  padding-top: 25px;
+  text-align: center;
+  width: 85%;
+}
+/* Location */
+.map {
+  border: 2px solid #30353d;
+  height: 450px;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+form {
+  background: #30353d;
+  border: 2px solid #30353d;
+  color: #e4b547;
+  height: 450px;
+  margin-bottom: 25px;
+  padding: 5%;
+  text-align: left;
+  text-decoration: underline;
+}
+form label {
+  display: block;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+form input {
+  display: block;
+  margin-bottom: 15px;
+}
+.reset, .submit {
+  border-radius: 5px;
+  cursor: pointer;
+  height: 25px;
+  margin: 25px auto;
+  text-decoration: none;
+  width: 50%;
+}
+.contact-location:after {
+  visibility: hidden;
+}
+
+
+/* Footer */
+footer {
+  background: #30353d;
+  color: #eee;
+  margin: 0 auto;
+  padding: 2%;
+  width: 85%;
+}
+footer a {
+  color: #eee;
+}
+footer a:hover {
+  color: #e4b547;
+}
+
+.social {
+  margin: 0 auto;
+  text-align: center;
+}
+.social li {
+  display: inline-block;
+  margin: 5px;
+}
+.hours {
+  text-align: right;
+}
+
+
+/*               */
+/* Media Queries */
+@media screen and (min-width: 320px) {
+  main, header, footer {
+    width: 100%;
+  }
+  .mobile-nav {
+    bottom: 50px;
+    right: 50px;
+    position: fixed;
+    z-index: 2;
+  }
+  .mobile-nav .logo {
+    height: auto;
+    margin-top: 5px;
+    width: 100px;
+  }
+  .mobile-nav ul {
+    background: #30353d;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: left;
+  }
+  .mobile-nav a {
+    color: #eee;
+    padding: 5px;
+  }
+  .mobile-nav a:active {
+    color: #e4b547;
+  }
+  .beer-style {
+    display: none;
+  }
+  .about {
+    text-align: center;
+  }
+  .about-img-container, .about-copy-container {
+    display: block;
+    padding-top: 0;
+    width: 85%;
+  }
+  .about p {
+    text-align: left;
+  }
+  .about p:last-of-type {
+    margin-bottom: 25px;
+  }
+  footer .contact-info, footer .social, footer .hours {
+    display: block;
+    margin: 0 auto 15px auto;
+    width: 85%;
+  }
+  .contact-info, .hours {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 500px) {
+  .mobile-nav {
+    display: none;
+  }
+}
+@media screen and (min-width: 855px) {
+  footer .contact-info, footer .social, footer .hours {
+    display: inline-block;
+    width: 33%;
+  }
+  .contact-info {
+    text-align: left;
+  }
+  .hours {
+    text-align: right;
+  }
+}
+@media screen and (min-width: 900px) {
+  main, header, footer {
+    width: 85%;
+  }
+  .location, .contact {
+    display: block;
+    float: none;
+    margin: 0 auto;
+    width: 85%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .about div {
+    display: inline-block;
+    margin: 0;
+  }
+  .about-img-container {
+    padding-top: 75px;
+    vertical-align: top;
+    width: 33%;
+  }
+  .about-copy-container {
+    margin-bottom: 50px;
+    padding-left: 2%;
+    width: 66%;
+  }
+  .location {
+    float: left;
+    text-align: center;
+    width: 47%;
+  }
+  .contact {
+    float: right;
+    margin: 0 auto 25px auto;
+    width: 47%;
+}
+@media screen and (min-width: 1500px) {
+  .beer-style {
+    display: inline-block;
+  }
+}
