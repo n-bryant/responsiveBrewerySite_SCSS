@@ -1,3 +1,5 @@
-# tiy-fee-week2-day2-ResponsiveBrewery
+# responsiveBrewerySite_SCSS
 Responsive Brewery Site
-https://n-bryant.github.io/tiy-fee-week2-day2-ResponsiveBrewery/
+https://n-bryant.github.io/responsiveBrewerySite_SCSS/
+
+* Practice with building a responsive CSS layout.  Used SCSS for better workflow and implementation of the responsive design.
